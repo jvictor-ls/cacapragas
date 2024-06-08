@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça Pragas - Saúde Ambiental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #212529;
+        }
+        .banner {
+            text-align: center;
+            padding: 50px;
+            background: url('cacapragas_capa.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .about, .contact {
+            margin: 20px 0;
+        }
+        .services h2, .about h2, .contact h2 {
+            border-bottom: 2px solid #343a40;
+            padding-bottom: 10px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Caça Pragas - Saúde Ambiental</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Serviços</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="banner" id="home">
+        <h2>Bem-vindo à Caça Pragas - Saúde Ambiental</h2>
+        <p>Controle de Pragas e Serviços de Sanitização</p>
+    </div>
+    <div class="container">
+        <section class="services" id="services">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Controle de Pragas</li>
+                <li>Serviços de Sanitização</li>
+            </ul>
+        </section>
+        <section class="about" id="about">
+            <h2>Sobre Nós</h2>
+            <p>Oferecemos serviços de dedetização por preços justos e acessíveis, com profissionais cursados e qualificados e equipamentos de qualidade, garantindo um ótimo trabalho.</p>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contato</h2>
+            <p>Telefone: (81) 99632-2327</p>
+            <form>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Caça Pragas - Saúde Ambiental</p>
+    </footer>
+</body>
+</html>
